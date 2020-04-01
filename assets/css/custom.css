@@ -1,0 +1,43 @@
+#loading div.modal-dialog {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+#loading div.modal-dialog div.modal-content div.modal-body{
+	height: 100%;
+	background-size: 160% 100%;
+	background-repeat: no-repeat;
+}
+#loading div.modal-dialog div.modal-content {
+	height: 100%;
+	width: 100%;
+	background: #fff !important
+}
+.loader-position {
+    margin: 20% 0px;
+}
+
+/*-- css loader --*/
+.loader {
+	border: 10px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 10px solid #3498db;
+	border-bottom: 10px solid #bba65a;
+	width: 150px;
+	height: 150px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+
+/*-- css spin --*/
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
