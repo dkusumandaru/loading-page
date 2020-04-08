@@ -4,25 +4,19 @@
 	<title>Loading Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/costum.css">
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/loader.js"></script>
 </head>
-<body onload="loader()">
-	<div class="modal fade" id="loading" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-body">
-					<div class="loader-position">
-					<center>
-					<div class="loader"></div>
-					<br>
-					<div>please wait...</div>
-					</center>
-				</div>
-				</div>
-			</div>
+<body>
+	<div id="loading">
+		<div class="logoLoader"></div>
+		<span class="loader"></span>
+		<div class="textLoader">
+			<center>
+			<b>Please Wait ... </b>
+			</center>
 		</div>
 	</div>
 

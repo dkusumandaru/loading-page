@@ -1,13 +1,6 @@
-
-// set delay 10s
-var delay = 10000;
-
-function loader(){
-	$('.header').hide();
-	$('#loading').modal('show');
+$(window).load(function() {
 	setTimeout(function(){
-		$('#loading').modal('hide');
-		$('.header').show();
-	},delay);
-	
-};
+		$("#loading").hide();
+		$(".loader").hide();
+	},1000);
+});
